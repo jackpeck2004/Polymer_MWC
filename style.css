@@ -1,8 +1,0 @@
-body {
-  margin: 0;
-  padding: 0;
-}
-mwc-top-app-bar-fixed {
-  --mdc-theme-primary: orange;
-  --mdc-theme-on-primary: black;
-}

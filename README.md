@@ -1,1 +1,0 @@
-# Polymer_MWC
