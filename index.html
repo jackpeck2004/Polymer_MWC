@@ -4,15 +4,33 @@
   <meta charset="UTF-8">
   <title>Polymer Template</title>
 
-
   <!-- Add support for Web Components to older browsers. -->
-    <script src="./node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+  <script src="./node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
 
-    <!-- Your application must load the Roboto and Material Icons fonts. -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Material+Icons&display=block" rel="stylesheet">
+  <!-- Your application must load the Roboto and Material Icons fonts. -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons&display=block" rel="stylesheet">
+
+  <!-- custom stylesheet -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+  <mwc-top-app-bar-fixed centerTitle>
+    <div slot="title"><a href="/">Polymer</a></div>
+    <div slot="actionItems">
+      <ul class="links">
+        <li class="link"><a href="/">Home</a></li>
+      </ul>
+    </div>
+  </mwc-top-app-bar-fixed>
+
+  <main>
+    <div class="title">
+      <h1>Polymer</h1>
+    </div>
+  </main>
+  <script type="module">
+    import '@material/mwc-top-app-bar-fixed';
+  </script>
 </body>
 </html>
