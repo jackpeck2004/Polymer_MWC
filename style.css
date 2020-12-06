@@ -39,6 +39,7 @@ a {
 main {
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background: rgb(3,3,3);
@@ -50,4 +51,13 @@ main {
   font-family: "Roboto";
   font-size: 5rem;
   font-weight: lighter;
+}
+
+main > p {
+  color: #d3d3d3;
+  font-family: 'Roboto';
+  font-size: 1.2em;
+  font-weight: lighter;
+  text-align: center;
+  width: 80vw;
 }

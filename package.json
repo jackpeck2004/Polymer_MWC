@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/jackpeck2004/Polymer_MWC#readme",
   "dependencies": {
+    "@material/mwc-button": "^0.20.0",
     "@material/mwc-top-app-bar-fixed": "^0.20.0",
     "@webcomponents/webcomponentsjs": "^2.5.0",
     "install": "^0.13.0",
